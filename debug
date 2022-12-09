@@ -1,0 +1,44 @@
+System.debug('Kemal');
+system.debug('Son');
+System.debug('29');
+string name;
+name='Kemal Son';
+system.debug('My name is '+name);
+string country;
+country='Turkey';
+system.debug('My country is '+country);
+integer age ;
+age=31 ;
+system.debug('My age '+age);
+string msg='welcome to CLARUSWAY Salesforce developer Course';
+system.debug(msg);
+system.debug(msg.toLowerCase());
+system.debug(msg.toUpperCase());
+system.debug(msg.capitalize());
+system.debug(msg.length());
+system.debug(msg.replace('CLARUSWAY' , 'Team7'));
+system.debug(msg.reverse());
+
+
+string x;
+x='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s. when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. but also the leap into electronic typesetting. remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages. and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.';
+system.debug(x);
+system.debug(x.replace('dummy' , 'DUMMY'));
+
+
+System.debug('Fatih');
+system.debug('İnce');
+System.debug('31');string name;
+name='Fatih İnce';
+system.debug('My name is '+name);string country;
+country='Turkey';
+system.debug('My country is '+country);integer age ;
+age=31 ;
+system.debug('My age '+age);string msg='welcome to CLARUSWAY Salesforce developer Course';
+system.debug(msg);
+system.debug(msg.toLowerCase());
+system.debug(msg.toUpperCase());
+system.debug(msg.capitalize());
+system.debug(msg.length());
+system.debug(msg.replace('CLARUSWAY' , 'Team7'));
+system.debug(msg.reverse());
