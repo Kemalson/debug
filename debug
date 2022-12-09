@@ -42,3 +42,149 @@ system.debug(msg.capitalize());
 system.debug(msg.length());
 system.debug(msg.replace('CLARUSWAY' , 'Team7'));
 system.debug(msg.reverse());
+
+
+---
+System.debug('kemal son');
+System.debug('This is the king');
+System.debug('Beni adım tatar ramazan');
+System.debug('problem olmaz mı');
+System.debug('hello');
+
+
+System.debug('clarus');
+System.debug('triforcia');
+
+
+
+
+List<String> accountNames = New List<String>();
+accountNames.add('Apple');
+System.debug(accountNames);System.debug(accountNames.size());
+accountNames.add(0,'Amazon');
+System.debug(accountNames);System.debug(accountNames.size());
+accountNames.add(0,'Ebay');
+System.debug(accountNames);System.debug(accountNames.size());
+accountNames.add(0,'Facebook, whatsapp');
+System.debug(accountNames);System.debug(accountNames.size());
+accountNames.add(0,'Twitter');
+System.debug(accountNames);System.debug(accountNames.size());
+
+accountNames.clear();
+System.debug(accountNames);System.debug(accountNames.size());
+accountNames.add(0,'Wallmart');
+System.debug(accountNames);System.debug(accountNames.size());
+------------------
+    List<String> accountNames = New List<String>();
+accountNames.add('Apple');
+accountNames.add('Amazon');
+accountNames.add('Ebay');
+accountNames.add('Facebook');
+accountNames.add('Twitter');
+System.debug(accountNames);
+System.debug(accountNames.size());
+System.debug('Listede sahibinden varmı?'+accountNames.contains('sahibinden'));
+System.debug('Listede Amazon varmı?'+accountNames.contains('amazon'));
+System.debug('Listede Facebook varmı?'+accountNames.contains('Facebook'));
+
+accountNames.remove(4);
+System.debug(accountNames);
+System.debug(accountNames.size());
+System.debug(accountNames[0]);
+System.debug(accountNames.get(0));
+System.debug(accountNames[1]);
+System.debug(accountNames.get(1));
+System.debug(accountNames[2]);
+System.debug(accountNames(2));
+------
+    List<String> accountNames = New List<String>();
+accountNames.add('Apple');
+accountNames.add('Amazon');
+accountNames.add('Ebay');
+accountNames.add('facebook');
+accountNames.add('twitter');
+System.debug('accountNames :'+accountNames);
+List<String> accounts = accountNames.clone();
+System.debug('YENİ LİSTE > accounts : '+accounts);
+accountNames.add('salesforce');
+System.debug('ESKİ accountNames :'+accountNames);
+System.debug('YENİ accounts : '+accounts);
+
+----
+   Set<String> accName = New Set<String>();
+System.debug(accName);
+accName.add('Apple');
+accName.add('Walmart');
+accName.add('Amazon');
+accName.add('Amazon');
+
+System.debug(accName);
+
+
+Set<String> setofACC = New Set<String>();
+setofACC.addAll(accName);
+system.debug('LIST Duplicasyon yok :'+ setofACC);
+
+-----
+MAP<String,String> ingTrDic = New Map<String,String>();
+
+
+ingTRDic.put('book','kitap');
+ingTRDic.put('door','kapı');
+ingTRDic.put('car','araba');
+ingTRDic.put('pen','dolma kalem');
+ingTRDic.put('man','adam');
+ingTRDic.put('woman','kadın');
+ingTRDic.put('summer','yaz');
+ingTRDic.put('write','yaz');
+system.debug(ingTRDic);
+Set<String> ING= ingTRDic.keySet();
+List<String> TR= ingTRDic.values();
+system.debug('TR : '+ TR);
+----
+    MAP<String,String> CarOwner = New Map<String,String>();
+
+
+CarOwner.put('06 XYZ 002','Alex');
+CarOwner.put('34 ABX 002','Kemal');
+CarOwner.put('35 ZZZ 004','Son');
+CarOwner.put('45 RRR 003','Victor');
+CarOwner.put('05 TTT 098','Hugo');
+
+system.debug(CarOwner.containsKey ('06 TTT 098'));
+system.debug(CarOwner.get('05 TTT 098'));
+
+-------
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+----
+string teacherName = 'lionel messi';
+
+teacherName += ' welcome';
+
+System.debug(teacherName);
+
+STRİNG msg=''
+    integer num1 = 10;
+integer num2 = 20;
+    System.debug('number 1 : ' +num1);
+System.debug('number 2 : ' +num2);
+integer num3;
+System.debug(num3);
+num3=num1+num2;
+     System.debug(num3);
+
+Double piSayisi=3.14;
+
+Double sirketDolarKuru = 20.50;
+system.debug('Pi sayısı' +piSayisi);
+system.debug('şimdiki dolar kuru :' +sirketDolarKuru);
+
